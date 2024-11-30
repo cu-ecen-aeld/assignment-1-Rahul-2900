@@ -1,0 +1,157 @@
+Running test with user rahul
+-- Generating ;/home/rahul/Desktop/Rahul/assignment-1-Rahul-2900/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/rahul/Desktop/Rahul/assignment-1-Rahul-2900/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/rahul/Desktop/Rahul/assignment-1-Rahul-2900/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/rahul/Desktop/Rahul/assignment-1-Rahul-2900/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/rahul/Desktop/Rahul/assignment-1-Rahul-2900/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/rahul/Desktop/Rahul/assignment-1-Rahul-2900/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rahul/Desktop/Rahul/assignment-1-Rahul-2900/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/rahul/Desktop/Rahul/assignment-1-Rahul-2900/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/rahul/Desktop/Rahul/assignment-1-Rahul-2900/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/rahul/Desktop/Rahul/assignment-1-Rahul-2900/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read Rahul-2900 from conf/username.txt
+/home/rahul/Desktop/Rahul/assignment-1-Rahul-2900/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/Rahul/assignment-1-Rahul-2900/assignment-autotest/test/assignment1 ~/Desktop/Rahul/assignment-1-Rahul-2900
+~/Desktop/Rahul/assignment-1-Rahul-2900/finder-app ~/Desktop/Rahul/assignment-1-Rahul-2900/assignment-autotest/test/assignment1 ~/Desktop/Rahul/assignment-1-Rahul-2900
+Error: Must provide 2 arguments.
+Error: Must provide 2 arguments.
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+File /tmp/aeld-data/Rahul-29001.txt has been created with the content.
+File /tmp/aeld-data/Rahul-29002.txt has been created with the content.
+File /tmp/aeld-data/Rahul-29003.txt has been created with the content.
+File /tmp/aeld-data/Rahul-29004.txt has been created with the content.
+File /tmp/aeld-data/Rahul-29005.txt has been created with the content.
+File /tmp/aeld-data/Rahul-29006.txt has been created with the content.
+File /tmp/aeld-data/Rahul-29007.txt has been created with the content.
+File /tmp/aeld-data/Rahul-29008.txt has been created with the content.
+File /tmp/aeld-data/Rahul-29009.txt has been created with the content.
+File /tmp/aeld-data/Rahul-290010.txt has been created with the content.
+find: ‘’: No such file or directory
+failed: expected  The number of files are 10 and the number of matching lines are 10 in The number of files are 0 and the number of matching lines are 0 but instead found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 1[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/ZZ6oEPMhjOjQBQbTA5LRWRpeBaCpCeKb
+File /tmp/aeld-data/ZZ6oEPMhjOjQBQbTA5LRWRpeBaCpCeKb/Rahul-29001.txt has been created with the content.
+File /tmp/aeld-data/ZZ6oEPMhjOjQBQbTA5LRWRpeBaCpCeKb/Rahul-29002.txt has been created with the content.
+File /tmp/aeld-data/ZZ6oEPMhjOjQBQbTA5LRWRpeBaCpCeKb/Rahul-29003.txt has been created with the content.
+File /tmp/aeld-data/ZZ6oEPMhjOjQBQbTA5LRWRpeBaCpCeKb/Rahul-29004.txt has been created with the content.
+File /tmp/aeld-data/ZZ6oEPMhjOjQBQbTA5LRWRpeBaCpCeKb/Rahul-29005.txt has been created with the content.
+File /tmp/aeld-data/ZZ6oEPMhjOjQBQbTA5LRWRpeBaCpCeKb/Rahul-29006.txt has been created with the content.
+File /tmp/aeld-data/ZZ6oEPMhjOjQBQbTA5LRWRpeBaCpCeKb/Rahul-29007.txt has been created with the content.
+File /tmp/aeld-data/ZZ6oEPMhjOjQBQbTA5LRWRpeBaCpCeKb/Rahul-29008.txt has been created with the content.
+File /tmp/aeld-data/ZZ6oEPMhjOjQBQbTA5LRWRpeBaCpCeKb/Rahul-29009.txt has been created with the content.
+File /tmp/aeld-data/ZZ6oEPMhjOjQBQbTA5LRWRpeBaCpCeKb/Rahul-290010.txt has been created with the content.
+find: ‘’: No such file or directory
+failed: expected  The number of files are 10 and the number of matching lines are 10 in The number of files are 0 and the number of matching lines are 0 but instead found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 1:finder-test.sh execution for random directory failed with return code 1
+Test of assignment assignment1 failed with rc=1
+Running test with user rahul
+-- Generating ;/home/rahul/Desktop/Rahul/assignment-1-Rahul-2900/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/rahul/Desktop/Rahul/assignment-1-Rahul-2900/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/rahul/Desktop/Rahul/assignment-1-Rahul-2900/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/rahul/Desktop/Rahul/assignment-1-Rahul-2900/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/rahul/Desktop/Rahul/assignment-1-Rahul-2900/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/rahul/Desktop/Rahul/assignment-1-Rahul-2900/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rahul/Desktop/Rahul/assignment-1-Rahul-2900/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/rahul/Desktop/Rahul/assignment-1-Rahul-2900/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/rahul/Desktop/Rahul/assignment-1-Rahul-2900/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/rahul/Desktop/Rahul/assignment-1-Rahul-2900/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read Rahul-2900 from conf/username.txt
+/home/rahul/Desktop/Rahul/assignment-1-Rahul-2900/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/Rahul/assignment-1-Rahul-2900/assignment-autotest/test/assignment1 ~/Desktop/Rahul/assignment-1-Rahul-2900
+~/Desktop/Rahul/assignment-1-Rahul-2900/finder-app ~/Desktop/Rahul/assignment-1-Rahul-2900/assignment-autotest/test/assignment1 ~/Desktop/Rahul/assignment-1-Rahul-2900
+Error: Must provide 2 arguments.
+Error: Must provide 2 arguments.
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+File /tmp/aeld-data/Rahul-29001.txt has been created with the content.
+File /tmp/aeld-data/Rahul-29002.txt has been created with the content.
+File /tmp/aeld-data/Rahul-29003.txt has been created with the content.
+File /tmp/aeld-data/Rahul-29004.txt has been created with the content.
+File /tmp/aeld-data/Rahul-29005.txt has been created with the content.
+File /tmp/aeld-data/Rahul-29006.txt has been created with the content.
+File /tmp/aeld-data/Rahul-29007.txt has been created with the content.
+File /tmp/aeld-data/Rahul-29008.txt has been created with the content.
+File /tmp/aeld-data/Rahul-29009.txt has been created with the content.
+File /tmp/aeld-data/Rahul-290010.txt has been created with the content.
+The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/K0B5uaqLtO8zlMmJgf1K4bED4skOmXdb
+File /tmp/aeld-data/K0B5uaqLtO8zlMmJgf1K4bED4skOmXdb/Rahul-29001.txt has been created with the content.
+File /tmp/aeld-data/K0B5uaqLtO8zlMmJgf1K4bED4skOmXdb/Rahul-29002.txt has been created with the content.
+File /tmp/aeld-data/K0B5uaqLtO8zlMmJgf1K4bED4skOmXdb/Rahul-29003.txt has been created with the content.
+File /tmp/aeld-data/K0B5uaqLtO8zlMmJgf1K4bED4skOmXdb/Rahul-29004.txt has been created with the content.
+File /tmp/aeld-data/K0B5uaqLtO8zlMmJgf1K4bED4skOmXdb/Rahul-29005.txt has been created with the content.
+File /tmp/aeld-data/K0B5uaqLtO8zlMmJgf1K4bED4skOmXdb/Rahul-29006.txt has been created with the content.
+File /tmp/aeld-data/K0B5uaqLtO8zlMmJgf1K4bED4skOmXdb/Rahul-29007.txt has been created with the content.
+File /tmp/aeld-data/K0B5uaqLtO8zlMmJgf1K4bED4skOmXdb/Rahul-29008.txt has been created with the content.
+File /tmp/aeld-data/K0B5uaqLtO8zlMmJgf1K4bED4skOmXdb/Rahul-29009.txt has been created with the content.
+File /tmp/aeld-data/K0B5uaqLtO8zlMmJgf1K4bED4skOmXdb/Rahul-290010.txt has been created with the content.
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
